@@ -5,7 +5,7 @@ Voici les étapes détaillées pour pouvoir modifier le courriel / téléphone s
 ![nmap](nmap.png) <br>
 2. Se connecter par ssh (le port 22 est ouvert) avec l'adresse IP du serveur.
 ![ssh](ssh.png) <br>
-3.Hacker par force brute avec les informations qu'on a sur bob pour trouver le nom d'utilisateur et le mot de passe. (bob, Sophie2014!)
+3. Hacker par force brute avec les informations qu'on a sur bob pour trouver le nom d'utilisateur et le mot de passe. (bob, Sophie2014!)
 ![login](login.png) <br>
 4. Ouvrir le fichier contact.html qui se trouve dans le répertoire /var/www/html dans un éditeur de texte avec la commande "nano /var/www/html/contact.html". Les permissions du fichier sont à 777 donc Bob a les droits d'écriture.
 ![contact](contact.png) <br>
