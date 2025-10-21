@@ -7,7 +7,11 @@ Voici les étapes détaillées pour pouvoir modifier le courriel / téléphone s
 ![ssh](ssh.png) <br>
 3.Hacker par force brute avec les informations qu'on a sur bob pour trouver le nom d'utilisateur et le mot de passe. (bob, Sophie2014!)
 ![login](login.png) <br>
+4. Ouvrir le fichier index.html qui se trouve dans le répertoire /var/www/html dans un éditeur de texte avec la commande "nano /var/www/html/index.html". Les permissions du fichier sont à 777 donc Bob a les droits d'écriture.
+5. 
 En rechargeant la page, on constate que le numéro de téléphone a été modifié, les images supprimées et le courriel changé :
 ## Correctif 1
+Configurer un pare-feu pour limiter l'accès au port 22 uniquement aux adresses IP de confiance et bloquer les autres tentatives de connexions.
 ## Correctif 2
+Utiliser le principe du plus bas privilège en limitant les permissions de l'utilisateur bob.
 ## Correctif 3
