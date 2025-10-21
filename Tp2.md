@@ -17,7 +17,7 @@ En rechargeant la page, on constate que le numéro de téléphone a été modifi
 ![telephone](telephone.png) <br>
 ![images](images.png)
 ## Correctif 1
-Configurer un pare-feu pour limiter l'accès au port 22 uniquement aux adresses IP de confiance et bloquer les autres tentatives de connexions.
+Configurer un pare-feu local pour limiter l'accès au port 22 uniquement aux adresses IP de confiance et bloquer les autres tentatives de connexions.
 ## Correctif 2
 Utiliser le principe du plus bas privilège en limitant les permissions de l'utilisateur bob.
 ## Correctif 3
