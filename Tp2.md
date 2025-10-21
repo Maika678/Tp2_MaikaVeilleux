@@ -8,7 +8,7 @@ Voici les étapes détaillées pour pouvoir modifier le courriel / téléphone s
 3.Hacker par force brute avec les informations qu'on a sur bob pour trouver le nom d'utilisateur et le mot de passe. (bob, Sophie2014!)
 ![login](login.png) <br>
 4. Ouvrir le fichier contact.html qui se trouve dans le répertoire /var/www/html dans un éditeur de texte avec la commande "nano /var/www/html/contact.html". Les permissions du fichier sont à 777 donc Bob a les droits d'écriture.
-![index](index.png)
+![contact](cpntact.png)
 5. 
 En rechargeant la page, on constate que le numéro de téléphone a été modifié, les images supprimées et le courriel changé :
 ## Correctif 1
