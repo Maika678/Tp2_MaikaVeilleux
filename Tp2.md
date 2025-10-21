@@ -22,7 +22,7 @@ Configurer un pare-feu local pour limiter l'accès au port 22 uniquement aux adr
 1. Activer le pare-feu avec la commande "sudo ufw allow"
 2. Fermer le port ssh (22) avec la commande "sudo ufw deny 22" (il n'est pas mentionné si un admin a besoin du service SSH pour administrer le serveur à distance donc on ferme le port complètement). <br>
 ![ufw](ufw.png) <br>
-L'accès au port 22 est maintenant bloqué :
+L'accès au port 22 est maintenant bloqué : <br>
 ![bloc](bloc.png) <br>
 ## Correctif 2
 Utiliser le principe du plus bas privilège en limitant les permissions de l'utilisateur bob.
