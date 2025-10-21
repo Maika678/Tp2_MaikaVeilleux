@@ -10,7 +10,7 @@ Voici les étapes détaillées pour pouvoir modifier le courriel / téléphone s
 4. Ouvrir le fichier contact.html qui se trouve dans le répertoire /var/www/html dans un éditeur de texte avec la commande "nano /var/www/html/contact.html". Les permissions du fichier sont à 777 donc Bob a les droits d'écriture.
 ![contact](contact.png) <br>
 5. Changer le numéro de téléphone et le courriel dans les balises corrrespondantes et enregistrer les modifications.
-![Changer](Changer.png) <br>
+![changements](changements.png) <br>
 6. Ouvrir le fichier realisation.html qui se trouve dans le répertoire /var/www/html dans un éditeur de texte avec la commande "nano /var/www/html/realisation.html". Supprimer les balises d'image et enregistrer les modifications.
 ![real](real.png) <br>
 En rechargeant la page, on constate que le numéro de téléphone a été modifié, les images supprimées et le courriel changé : <br>
