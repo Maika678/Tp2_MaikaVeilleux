@@ -24,6 +24,8 @@ Configurer un pare-feu local pour limiter l'accès au port 22 uniquement aux adr
 ![ufw](ufw.png) <br>
 L'accès au port 22 est maintenant bloqué : <br>
 ![bloc](bloc.png)
+Copie d'écran du site toujours fonctionnel :
+![sitefonct](sitefonct.png)
 ## Correctif 2
 Utiliser le principe du plus bas privilège en limitant les permissions de l'utilisateur bob.
 ## Correctif 3
