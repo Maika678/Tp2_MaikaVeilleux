@@ -17,7 +17,10 @@ En rechargeant la page, on constate que le numéro de téléphone a été modifi
 ![telephone](telephone.png) <br>
 ![images](images.png)
 ## Correctif 1
-Configurer un pare-feu local pour limiter l'accès au port 22 uniquement aux adresses IP de confiance et bloquer les autres tentatives de connexions.
+mdp: exploit2fix
+Configurer un pare-feu local pour limiter l'accès au port 22 uniquement aux adresses IP de confiance et bloquer les autres tentatives de connexions :
+1. Activer le pare-feu avec la commande "sudo ufw allow"
+2. Fermer le port ssh (22) avec la commande "sudo ufw deny 22" 
 ## Correctif 2
 Utiliser le principe du plus bas privilège en limitant les permissions de l'utilisateur bob.
 ## Correctif 3
