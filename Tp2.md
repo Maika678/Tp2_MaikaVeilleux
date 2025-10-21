@@ -13,7 +13,7 @@ Voici les étapes détaillées pour pouvoir modifier le courriel / téléphone s
 ![Changer](Changer.png)
 6. Ouvrir le fichier realisation.html qui se trouve dans le répertoire /var/www/html dans un éditeur de texte avec la commande "nano /var/www/html/realisation.html". Supprimer les balises d'image et enregistrer les modifications.
 ![real](real.png)
-En rechargeant la page, on constate que le numéro de téléphone a été modifié, les images supprimées et le courriel changé :
+En rechargeant la page, on constate que le numéro de téléphone a été modifié, les images supprimées et le courriel changé : <br>
 ![telephone](telephone.png)
 ![images](images.png)
 ## Correctif 1
