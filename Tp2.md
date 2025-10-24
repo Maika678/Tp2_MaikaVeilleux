@@ -27,5 +27,9 @@ L'accès au port 22 est maintenant bloqué : <br>
 Copie d'écran du site toujours fonctionnel :
 ![sitefonct](sitefonct.png)
 ## Correctif 2
-Utiliser le principe du plus bas privilège en limitant les permissions de l'utilisateur bob.
+Utiliser le principe du plus bas privilège en limitant les permissions de l'utilisateur bob. On crée un groupe qui aura les droits d'écriture et on y ajoute daboss avec les commandes "sudo groupadd webdevs" et "sudo usermod -a -G webdevs daboss".
+![groupe](groupe.png) <br>
+
+Puisque bob n'est pas propriétaire et ne fait pas parti du groupe propriétaire il n'aura plus les permissions d'écriture et ne sera plus en mesure de modifier le contenu du fichier index.html. <br>
+Utiliser les commandes "sudo chmod 755 -R /var/www/html"
 ## Correctif 3
