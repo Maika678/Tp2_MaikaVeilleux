@@ -33,5 +33,7 @@ Désigner www-data comme propriétaire du site et webdevs comme groupe propriét
 ![perm](perm.png) <br>
 Puisque bob n'est pas propriétaire et ne fait pas parti du groupe propriétaire il n'aura plus les permissions d'écriture et ne sera plus en mesure de modifier le contenu des fichiers dans /var/www/html/. <br>
 ![erreur](erreur.png) <br>
+Copie d'écran du site toujours fonctionnel :
+![fonctionnel](fonctionnel.png)
 
 ## Correctif 3
