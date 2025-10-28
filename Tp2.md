@@ -19,7 +19,7 @@ En rechargeant la page, on constate que le numéro de téléphone a été modifi
 ## Correctif 1
 mdp: exploit2fix
 Pour briser l'étape 2 de l'exploit, on pourrait configurer un pare-feu local pour limiter l'accès au port 22 uniquement aux adresses IP de confiance et bloquer les autres tentatives de connexions :
-1. Activer le pare-feu avec la commande "sudo ufw allow"
+1. Activer le pare-feu avec la commande "sudo ufw enable"
 2. Fermer le port ssh (22) avec la commande "sudo ufw deny 22" (il n'est pas mentionné si un admin a besoin du service SSH pour administrer le serveur à distance donc on ferme le port complètement). <br>
 ![ufw](ufw.png) <br>
 L'accès au port 22 est maintenant bloqué : <br>
@@ -38,4 +38,5 @@ Copie d'écran du site toujours fonctionnel :
 ![fonctionnel](fonctionnel.png)
 
 ## Correctif 3
+Admin exiger un mot de passe plus long?
 Pour briser l'étape 3, on pourrait réduire le risque que les mots de passes hachés soit craqués en leur ajoutant un sel. Le site de craquage aurait eu plus de difficulté à trouver les mots de passes de Bob.
