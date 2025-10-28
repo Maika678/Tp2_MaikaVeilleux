@@ -38,3 +38,4 @@ Copie d'écran du site toujours fonctionnel :
 ![fonctionnel](fonctionnel.png)
 
 ## Correctif 3
+Pour briser l'étape 3, on pourrait réduire le risque que les mots de passes hachés soit craqués en leur ajoutant un sel. Le site de craquage aurait eu plus de difficulté à trouver les mots de passes de Bob.
