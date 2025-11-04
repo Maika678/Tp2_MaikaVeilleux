@@ -40,5 +40,5 @@ Copie d'écran du site toujours fonctionnel :
 ![fonctionnel](fonctionnel.png)
 
 ## Correctif 3
-Admin exiger un mot de passe plus long?
-Pour briser l'étape 3, on pourrait réduire le risque que les mots de passes hachés soit craqués en leur ajoutant un sel. Le site de craquage aurait eu plus de difficulté à trouver les mots de passes de Bob.
+Pour briser l'étape 3, on pourrait exiger que les utilisateurs créent un mot de passe plus long ou plus complexe. 
+1. Pour exiger un mot de passe plus long, ouvrir le fichier common-password qui se trouve dans le répertoire /etc/pam.d dans un éditeur de texte avec la commande "sudo nano /etc/pam.d/common-password"
