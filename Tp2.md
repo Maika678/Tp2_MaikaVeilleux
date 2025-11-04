@@ -48,4 +48,6 @@ Pour briser l'étape 3, on pourrait exiger que les utilisateurs créent un mot d
 ![mdp2](mdp2.png) <br>
 4. Bob doit changer son mot de passe et celui-ci doit être d'une longeur minimale de 16 caractères.
 ![Nvxmdp](Nvxmdp.png) <br>
-Ensuite, pour s'assurer que Bob utilse un mot de passe plus complexe, il faudra faire de la sensibilisation.
+5. Ensuite, pour s'assurer que Bob utilse un mot de passe plus complexe, il faudra faire de la sensibilisation. <br>
+Copie d'écran du site toujours fonctionnel :
+![fonctionnel2(fonctionnel2.png)
