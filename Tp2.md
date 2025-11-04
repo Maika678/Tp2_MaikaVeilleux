@@ -24,6 +24,8 @@ Pour briser l'étape 2 de l'exploit, on pourrait configurer un pare-feu local po
 ![ufw](ufw.png) <br>
 L'accès au port 22 est maintenant bloqué : <br>
 ![bloc](bloc.png) <br>
+Le port 22 n'apparaît plus comme étant ouvert sur nmap : <br>
+![nmapfix](nmapfix.png) <br>
 Copie d'écran du site toujours fonctionnel :
 ![sitefonct](sitefonct.png)
 ## Correctif 2
