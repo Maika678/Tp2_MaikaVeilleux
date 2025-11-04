@@ -46,4 +46,6 @@ Pour briser l'étape 3, on pourrait exiger que les utilisateurs créent un mot d
 ![min](min.png) <br>
 3. Forcer l'utilisateur bob à changer son mot de passe la prochaine fois qu'il se connecte avec la commande "sudo passwd -e bob"
 ![mdp2](mdp2.png) <br>
+4. Bob doit changer son mot de passe et celui-ci doit être d'une longeur minimale de 16 caractères.
+![Nvxmdp](Nvxmdp2.png) <br>
 Ensuite, pour s'assurer que Bob utilse un mot de passe plus complexe, il faudra faire de la sensibilisation.
