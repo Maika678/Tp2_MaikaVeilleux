@@ -9,7 +9,7 @@ Voici les étapes détaillées pour pouvoir modifier le courriel / téléphone s
 ![login](login.png) <br>
 4. Ouvrir le fichier contact.html qui se trouve dans le répertoire /var/www/html dans un éditeur de texte avec la commande "nano /var/www/html/contact.html". Les permissions du fichier sont à 777 donc Bob a les droits d'écriture.
 ![contact](contact.png) <br>
-5. Changer le numéro de téléphone et le courriel dans les balises corrrespondantes et enregistrer les modifications.
+5. Changer le numéro de téléphone et le courriel dans les balises correspondantes et enregistrer les modifications.
 ![changement](changement.png) <br>
 6. Ouvrir le fichier realisation.html qui se trouve dans le répertoire /var/www/html dans un éditeur de texte avec la commande "nano /var/www/html/realisation.html". Supprimer les balises d'image et enregistrer les modifications.
 ![real](real.png) <br>
@@ -42,12 +42,12 @@ Copie d'écran du site toujours fonctionnel :
 ## Correctif 3
 Pour briser l'étape 3, on pourrait exiger que les utilisateurs créent un mot de passe plus long ou plus complexe. 
 1. Pour exiger un mot de passe plus long, ouvrir le fichier common-password qui se trouve dans le répertoire /etc/pam.d dans un éditeur de texte avec la commande "sudo nano /etc/pam.d/common-password"
-2. Ajouter le paramètre de complexité "minlen" avec une valeur de 16 pour mettre le nombre minimal de caractère d'un mot de passe à 16.
+2. Ajouter le paramètre de complexité "minlen" avec une valeur de 16 pour mettre le nombre minimal de caractères d'un mot de passe à 16.
 ![min](min.png) <br>
 3. Forcer l'utilisateur bob à changer son mot de passe la prochaine fois qu'il se connecte avec la commande "sudo passwd -e bob"
 ![mdp2](mdp2.png) <br>
-4. Bob doit changer son mot de passe et celui-ci doit être d'une longeur minimale de 16 caractères.
+4. Bob doit changer son mot de passe et celui-ci doit être d'une longueur minimale de 16 caractères.
 ![Nvxmdp](Nvxmdp.png) <br>
-5. Ensuite, pour s'assurer que Bob utilse un mot de passe plus complexe, il faudra faire de la sensibilisation. <br>
+5. Ensuite, pour s'assurer que Bob utilise un mot de passe plus complexe, il faudra faire de la sensibilisation. <br>
 Copie d'écran du site toujours fonctionnel :
 ![fonctionnel2](fonctionnel2.png)
