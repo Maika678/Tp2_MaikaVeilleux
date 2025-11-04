@@ -44,5 +44,6 @@ Pour briser l'étape 3, on pourrait exiger que les utilisateurs créent un mot d
 1. Pour exiger un mot de passe plus long, ouvrir le fichier common-password qui se trouve dans le répertoire /etc/pam.d dans un éditeur de texte avec la commande "sudo nano /etc/pam.d/common-password"
 2. Ajouter le paramètre de complexité "minlen" avec une valeur de 16 pour mettre le nombre minimal de caractère d'un mot de passe à 16.
 ![min](min.png) <br>
-3. Forcer l'utilisateur bob à changer son mot de passe,
+3. Forcer l'utilisateur bob à changer son mot de passe la prochaine fois qu'il se connecte avec la commande "sudo passwd -e bob"
+![mdp2](mdp2.png) <br>
 Ensuite, pour s'assurer que Bob utilse un mot de passe plus complexe, il faudra faire de la sensibilisation.
