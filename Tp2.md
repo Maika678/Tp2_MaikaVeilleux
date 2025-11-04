@@ -17,7 +17,6 @@ En rechargeant la page, on constate que le numéro de téléphone a été modifi
 ![telephone](telephone.png) <br>
 ![images](images.png)
 ## Correctif 1
-mdp: exploit2fix
 Pour briser l'étape 2 de l'exploit, on pourrait configurer un pare-feu local pour limiter l'accès au port 22 uniquement aux adresses IP de confiance et bloquer les autres tentatives de connexions :
 1. Activer le pare-feu avec la commande "sudo ufw enable"
 2. Fermer le port ssh (22) avec la commande "sudo ufw deny 22" (il n'est pas mentionné si un admin a besoin du service SSH pour administrer le serveur à distance donc on ferme le port complètement). <br>
